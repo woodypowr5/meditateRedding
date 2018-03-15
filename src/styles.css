@@ -9,3 +9,11 @@ html, body {
 body {
   margin: 0;
 }
+
+app-page-copy{
+  font-size: 25px;
+}
+
+app-page-title h1{
+  margin-bottom: 30px;
+}
