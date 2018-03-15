@@ -1,7 +1,45 @@
-<app-weekly-day [dayOfWeek]="'Monday'"></app-weekly-day>
-<app-weekly-day [dayOfWeek]="'Tuesday'"></app-weekly-day>
-<app-weekly-day [dayOfWeek]="'Wednesday'"></app-weekly-day>
-<app-weekly-day [dayOfWeek]="'Thursday'"></app-weekly-day>
-<app-weekly-day [dayOfWeek]="'Friday'"></app-weekly-day>
-<app-weekly-day [dayOfWeek]="'Saturday'"></app-weekly-day>
-<app-weekly-day [dayOfWeek]="'Sunday'"></app-weekly-day>
+<app-weekly-day 
+  [dayOfWeek]="'Monday'"
+  [events]="getDailyEvents('Monday')"
+>
+</app-weekly-day>
+
+<app-weekly-day 
+  [dayOfWeek]="'Tuesday'"
+  [events]="getDailyEvents('Tuesday')"
+>
+</app-weekly-day>
+
+<app-weekly-day 
+  [dayOfWeek]="'Wednesday'"
+  [events]="getDailyEvents('Wednesday')"
+>
+
+</app-weekly-day>
+
+<app-weekly-day 
+  [dayOfWeek]="'Thursday'"
+  [events]="getDailyEvents('Thursday')"
+>
+
+</app-weekly-day>
+
+<app-weekly-day 
+  [dayOfWeek]="'Friday'"
+  [events]="getDailyEvents('Friday')"
+>
+
+</app-weekly-day>
+
+<app-weekly-day 
+  [dayOfWeek]="'Saturday'"
+  [events]="getDailyEvents('Saturday')"
+>
+
+</app-weekly-day>
+
+<app-weekly-day 
+  [dayOfWeek]="'Sunday'"
+  [events]="getDailyEvents('Sunday')"
+>
+</app-weekly-day>

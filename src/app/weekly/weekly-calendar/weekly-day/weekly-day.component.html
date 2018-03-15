@@ -1,3 +1,5 @@
 <div class="day">
   {{ dayOfWeek }}
 </div>
+
+<app-event *ngFor="let event of dailyEvents">{{ event.name }}</app-event>

@@ -1,3 +1,6 @@
+import { EventComponent } from './shared/event/event.component';
+import { GroupsService } from './services/groups.service';
+import { CalendarService } from './services/calendar.service';
 import { WeeklyDayComponent } from './weekly/weekly-calendar/weekly-day/weekly-day.component';
 import { WeeklyCalendarComponent } from './weekly/weekly-calendar/weekly-calendar.component';
 import { PageCopyComponent } from './shared/page-copy/page-copy.component';
@@ -22,6 +25,8 @@ import { RetreatsComponent } from './retreats/retreats.component';
 import { GroupsComponent } from './groups/groups.component';
 import { ResourcesComponent } from './resources/resources.component';
 import { PageTitleComponent } from './shared/page-title/page-title.component';
+import { WeeklyService } from './services/weekly.service';
+import { ResourcesService } from './services/resources.service';
 
 @NgModule({
   declarations: [
@@ -37,7 +42,8 @@ import { PageTitleComponent } from './shared/page-title/page-title.component';
     PageTitleComponent,
     PageCopyComponent,
     WeeklyCalendarComponent,
-    WeeklyDayComponent
+    WeeklyDayComponent,
+    EventComponent
   ],
   imports: [
     BrowserModule,
@@ -46,7 +52,13 @@ import { PageTitleComponent } from './shared/page-title/page-title.component';
     AppRoutingModule,
     FlexLayoutModule
   ],
-  providers: [UIService],
+  providers: [
+    UIService,
+    WeeklyService,
+    CalendarService,
+    GroupsService,
+    ResourcesService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
