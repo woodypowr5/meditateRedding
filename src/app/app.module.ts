@@ -1,3 +1,5 @@
+import { WeeklyDayComponent } from './weekly/weekly-calendar/weekly-day/weekly-day.component';
+import { WeeklyCalendarComponent } from './weekly/weekly-calendar/weekly-calendar.component';
 import { PageCopyComponent } from './shared/page-copy/page-copy.component';
 
 import { BrowserModule } from '@angular/platform-browser';
@@ -33,7 +35,9 @@ import { PageTitleComponent } from './shared/page-title/page-title.component';
     GroupsComponent,
     ResourcesComponent,
     PageTitleComponent,
-    PageCopyComponent
+    PageCopyComponent,
+    WeeklyCalendarComponent,
+    WeeklyDayComponent
   ],
   imports: [
     BrowserModule,
