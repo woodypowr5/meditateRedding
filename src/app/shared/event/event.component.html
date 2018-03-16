@@ -1,4 +1,9 @@
-<mat-card>
+<mat-card
+[ngClass]="{
+  'group-background-color-0': event.group === 'Center for Spiritual Living',
+  'group-background-color-1': event.group === 'Redding Zen Priory',
+  'group-background-color-2': event.group === 'River Oak Sangha'
+}">
   <mat-card-subtitle *ngIf="event">{{ event.time }}</mat-card-subtitle>
   <mat-card-content 
     *ngIf="event"
