@@ -1,3 +1,4 @@
+import { ColorService } from './services/color.service';
 import { EventComponent } from './shared/event/event.component';
 import { GroupsService } from './services/groups.service';
 import { CalendarService } from './services/calendar.service';
@@ -57,7 +58,8 @@ import { ResourcesService } from './services/resources.service';
     WeeklyService,
     CalendarService,
     GroupsService,
-    ResourcesService
+    ResourcesService,
+    ColorService
   ],
   bootstrap: [AppComponent]
 })

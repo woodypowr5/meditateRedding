@@ -5,6 +5,7 @@ export class Event {
     date: string;
     time: string;
     location: string;
+    group: string;
     tradition: string;
     description: string;
     descriptionBody: string;

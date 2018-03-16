@@ -1,0 +1,18 @@
+mat-card{
+    margin: 10px 10px;
+    padding: 18px;
+}
+mat-card-title{
+    font-size: 18px;
+}
+
+mat-card-subtitle{
+    font-weight: bold;
+    font-size: 20px;
+    color: #444888;
+}
+
+.color-red{
+    color: red;
+    font-weight: bold;
+}

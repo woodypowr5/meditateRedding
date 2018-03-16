@@ -1,3 +1,11 @@
-<p>
-  event works!
-</p>
+<mat-card>
+  <mat-card-subtitle *ngIf="event">{{ event.time }}</mat-card-subtitle>
+  <mat-card-content 
+    *ngIf="event"
+    [className]="event.group === 'Center for Spiritual Living' ? 'color-red': ''"
+    >
+    {{ event.group }}
+  </mat-card-content>
+  <mat-card-title *ngIf="event"> {{ event.name }}</mat-card-title>
+  <mat-card-content *ngIf="event">{{ event.description }}</mat-card-content>
+</mat-card>

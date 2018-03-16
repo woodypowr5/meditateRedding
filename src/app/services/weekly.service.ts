@@ -19,11 +19,24 @@ export class WeeklyService {
       name: 'Morning Meditation Practice',
       dayRepeating: 'Tuesday',
       date: '',
-      time: '600AM',
+      time: '6:00AM-7:00AM',
+      location: 'Blah',
+      tradition: 'Zen',
+      description: '',
+      descriptionBody: 'Test',
+      group: 'Redding Zen Priory'
+    });
+    this.events.push({
+      id: 0,
+      name: 'Evening Meditation Practice',
+      dayRepeating: 'Tuesday',
+      date: '',
+      time: '500PM-5:30PM',
       location: 'Blah',
       tradition: 'Mindfullness',
-      description: 'The weekly meeting of the River Oak Sangha',
-      descriptionBody: 'Test'
+      description: '',
+      descriptionBody: 'Test',
+      group: 'Redding Zen Priory'
     });
 
 
@@ -33,33 +46,36 @@ export class WeeklyService {
       name: 'Morning Meditation Practice',
       dayRepeating: 'Wednesday',
       date: '',
-      time: '600AM',
+      time: '6:00AM-7:00AM',
       location: 'Blah',
       tradition: 'Mindfullness',
-      description: 'The weekly meeting of the River Oak Sangha',
-      descriptionBody: 'Test'
+      description: '',
+      descriptionBody: 'Test',
+      group: 'Redding Zen Priory'
     });
     this.events.push({
         id: 1,
-        name: 'River Oak Sangha Weekly Gathering',
-        dayRepeating: 'Monday',
+        name: 'Weekly Gathering',
+        dayRepeating: 'Wednesday',
         date: '',
         time: '630PM - 8PM',
         location: 'Blah',
         tradition: 'Mindfullness',
         description: 'The weekly meeting of the River Oak Sangha',
-        descriptionBody: 'Test'
+        descriptionBody: 'Test',
+        group: 'River Oak Sangha'
     });
     this.events.push({
       id: 0,
-      name: 'Morning Meditation Practice',
+      name: 'Evening Meditation Practice',
       dayRepeating: 'Wednesday',
       date: '',
-      time: '600PM',
+      time: '500PM-5:30PM',
       location: 'Blah',
       tradition: 'Mindfullness',
-      description: 'The weekly meeting of the River Oak Sangha',
-      descriptionBody: 'Test'
+      description: '',
+      descriptionBody: 'Test',
+      group: 'Redding Zen Priory'
     });
 
   // Thursday
@@ -68,11 +84,24 @@ export class WeeklyService {
       name: 'Morning Meditation Practice',
       dayRepeating: 'Thursday',
       date: '',
-      time: '600AM',
+      time: '600AM-7:00AM',
       location: 'Blah',
       tradition: 'Mindfullness',
-      description: 'The weekly meeting of the River Oak Sangha',
-      descriptionBody: 'Test'
+      description: '',
+      descriptionBody: 'Test',
+      group: 'Redding Zen Priory'
+    });
+    this.events.push({
+      id: 0,
+      name: 'Evening Meditation Practice',
+      dayRepeating: 'Thursday',
+      date: '',
+      time: '500PM-5:30PM',
+      location: 'Blah',
+      tradition: 'Mindfullness',
+      description: '',
+      descriptionBody: 'Test',
+      group: 'Redding Zen Priory'
     });
 
   // Friday
@@ -81,12 +110,38 @@ export class WeeklyService {
     name: 'Morning Meditation Practice',
     dayRepeating: 'Friday',
     date: '',
-    time: '600AM',
+    time: '600AM-7:00AM',
     location: 'Blah',
     tradition: 'Mindfullness',
-    description: 'The weekly meeting of the River Oak Sangha',
-    descriptionBody: 'Test'
+    description: '',
+    descriptionBody: 'Test',
+    group: 'Redding Zen Priory'
   });
+  this.events.push({
+    id: 0,
+    name: 'Meditation',
+    dayRepeating: 'Friday',
+    date: '',
+    time: '8:30AM-8:45AM',
+    location: 'Blah',
+    tradition: 'Non Denominational',
+    description: '',
+    descriptionBody: 'Test',
+    group: 'Center for Spiritual Living'
+  });
+  this.events.push({
+    id: 0,
+    name: 'Evening Meditation Practice',
+    dayRepeating: 'Friday',
+    date: '',
+    time: '500PM-5:30PM',
+    location: 'Blah',
+    tradition: 'Mindfullness',
+    description: '',
+    descriptionBody: 'Test',
+    group: 'Redding Zen Priory'
+  });
+  
 
 
   // Saturday
