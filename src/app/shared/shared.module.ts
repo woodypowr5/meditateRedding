@@ -20,6 +20,6 @@ import { PageCopyComponent } from './page-copy/page-copy.component';
     MaterialModule,
     FlexLayoutModule
   ],
-  declarations: [PageTitleComponent, PageCopyComponent]
+  declarations: [PageTitleComponent, PageCopyComponent, SharedComponent]
 })
 export class SharedModule {}

@@ -8,6 +8,7 @@ html, body {
 
 body {
   margin: 0;
+  color: #A64C38;
 }
 
 app-page-copy{
@@ -18,26 +19,24 @@ app-page-title h1{
   margin-bottom: 30px;
 }
 
-
-
 .group-color-0{
-  color: rgb(255, 0, 0);   
+  color: black;   
   font-weight: bold;
 }
 .group-background-color-0{    
-  background-color: rgba(255,0,0,0.3);
+  background-color: rgba(218,180, 132,0.3);
 }
 .group-color-1{
-  color:  rgb(0, 255, 0);  
+  color:  black;  
   font-weight: bold;
 }
 .group-background-color-1{    
-  background-color: rgba(0, 255, 0,0.3);
+  background-color: rgba(165, 137, 103,0.3);
 }
 .group-color-2{
-  color:#0000ff;
+  color: black;
   font-weight: bold;
 }
 .group-background-color-2{    
-  background-color: rgba(0, 0, 255,0.3);
+  background-color: rgba(154,154,154,0.3);
 }

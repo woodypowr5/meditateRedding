@@ -103,6 +103,18 @@ export class WeeklyService {
       descriptionBody: 'Test',
       group: 'Redding Zen Priory'
     });
+    this.events.push({
+      id: 0,
+      name: 'Evening Meditation Practice',
+      dayRepeating: 'Thursday',
+      date: '',
+      time: '6:30PM-8:00PM',
+      location: 'Blah',
+      tradition: 'Mindfullness',
+      description: '',
+      descriptionBody: 'Test',
+      group: 'Center for Spiritual Living'
+    });
 
   // Friday
   this.events.push({
@@ -119,18 +131,6 @@ export class WeeklyService {
   });
   this.events.push({
     id: 0,
-    name: 'Meditation',
-    dayRepeating: 'Friday',
-    date: '',
-    time: '8:30AM-8:45AM',
-    location: 'Blah',
-    tradition: 'Non Denominational',
-    description: '',
-    descriptionBody: 'Test',
-    group: 'Center for Spiritual Living'
-  });
-  this.events.push({
-    id: 0,
     name: 'Evening Meditation Practice',
     dayRepeating: 'Friday',
     date: '',
@@ -141,12 +141,21 @@ export class WeeklyService {
     descriptionBody: 'Test',
     group: 'Redding Zen Priory'
   });
-  
-
-
   // Saturday
 
   // Sunday
+  this.events.push({
+    id: 0,
+    name: 'Meditation',
+    dayRepeating: 'Sunday',
+    date: '',
+    time: '8:30AM-8:45AM',
+    location: 'Blah',
+    tradition: 'Non Denominational',
+    description: '',
+    descriptionBody: 'Test',
+    group: 'Center for Spiritual Living'
+  });
   }
   getEvents(){
     return this.events;

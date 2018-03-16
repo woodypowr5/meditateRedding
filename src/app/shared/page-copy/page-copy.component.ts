@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-page-copy',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./page-copy.component.css']
 })
 export class PageCopyComponent implements OnInit {
-
+  @Input() text;
   constructor() { }
 
   ngOnInit() {
