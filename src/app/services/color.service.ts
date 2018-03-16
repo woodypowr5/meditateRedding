@@ -3,9 +3,9 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class ColorService {
   private colorScheme = [
-    'Red',
-    'Green',
-    'Blue'
+    'color-red',
+    'color-green',
+    'color-blue'
   ];
   private groupColors: any =
 
