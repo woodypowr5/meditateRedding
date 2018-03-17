@@ -1,4 +1,38 @@
 .image-wrapper {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
+    margin: 10px 0px 30px 3px;
+}
+mat-card{
+    padding: 40px;
+    position: relative;
+}
+mat-card-subtitle{
+    width: 700px;
+    font-size: 18px;
+}
+.info-wrapper{
+    padding-top: 20px;
+    position: absolute;
+    left: 300px;
+    top: 50px;
+    height: 200px;
+    width: 100%;
+}
+.info-line{
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.key{
+    font-size: 20px;
+    font-weight: bold;
+}
+.value{
+    position: absolute;
+    left: 100px;
+}
+.address2{
+    margin-left: 100px;
 }

@@ -28,7 +28,6 @@ import { ResourcesComponent } from './resources/resources.component';
 import { PageTitleComponent } from './shared/page-title/page-title.component';
 import { WeeklyService } from './services/weekly.service';
 import { ResourcesService } from './services/resources.service';
-import { MemberComponent } from './group/member/member.component';
 import { GroupComponent } from './groups/group/group.component';
 
 @NgModule({
@@ -47,7 +46,6 @@ import { GroupComponent } from './groups/group/group.component';
     WeeklyCalendarComponent,
     WeeklyDayComponent,
     EventComponent,
-    MemberComponent,
     GroupComponent
   ],
   imports: [

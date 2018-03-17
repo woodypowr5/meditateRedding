@@ -1,3 +1,7 @@
 mat-card{
     flex-wrap: wrap;
 }
+app-group{
+    width: 100%;
+    padding: 30px;
+}

@@ -3,7 +3,10 @@
     <app-sidenav-list (closeSidenav)="sidenav.close()"></app-sidenav-list>
   </mat-sidenav>
   <mat-sidenav-content>
-    <app-header (sidenavToggle)="sidenav.toggle()"></app-header>
+    
+    <div class="hero">
+        <app-header (sidenavToggle)="sidenav.toggle()"></app-header>
+    </div>
     <main>
       <router-outlet></router-outlet>
     </main>

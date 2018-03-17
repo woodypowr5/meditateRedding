@@ -1,14 +1,27 @@
 <mat-card>
+    <div 
+    class="image-wrapper" 
+    [ngStyle]="{'background-image': 'url(' + group.imagePath + ')'}"
+  >
+  </div>
   <mat-card-title>
     {{ group.name }}
   </mat-card-title>
   <mat-card-subtitle>
     {{ group.description}}
   </mat-card-subtitle>
-  <div 
-    class="image-wrapper" 
-    [ngStyle]="{'background-image': 'url(' + group.imagePath + ')'}"
-  >
+  <div class="info-wrapper">
+    <span class="address info-line" *ngIf="group.address">   
+      <span class="key">Address: </span><span class="value"> {{ group.address }}</span>
+      <br/>
+      <span class="address2"> <span class="value">{{ group.address2 }}</span></span> 
+    </span>
+    <span class="phone info-line" *ngIf="group.phone">   
+      <span class="key">Phone: </span> <span class="value">{{ group.phone }}</span>
+    </span>
+    <span class="email info-line" *ngIf="group.email">   
+      <span class="key">Email: </span> <span class="value">{{ group.email }}</span>
+      </span>
   </div>
   
 </mat-card>

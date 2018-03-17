@@ -1,16 +1,16 @@
-import { Group } from './../groups/group/group.model';
+import { Retreat } from './retreat.model';
 import { Injectable } from '@angular/core';
 
 @Injectable()
-export class GroupsService {
+export class RetreatService {
 
-  groups: Group[] = [];
+  retreats: Retreat[] = [];
 
   constructor() {
-    this.populateGroups();
+    this.populateRetreats();
   }
 
-  populateGroups() {
+  populateRetreats() {
     // this.groups.push({
     //     id: 0
     //     name: string;
@@ -19,7 +19,7 @@ export class GroupsService {
     //     length: string;
     //     location: string;
     //     group?: string;
-    //     tradition?: string;
+    //      tradition?: string;
     //     description?: string;
     //     contactName?: string;
     //     contactPhone?: string;
