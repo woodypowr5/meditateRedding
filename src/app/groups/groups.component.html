@@ -1,7 +1,12 @@
 <app-page-title [text]="'Meditation Groups and Institutions'"></app-page-title>
-
-<app-group
-  *ngFor="let group of groups"
-  [groupInput]="group"
-  >
-</app-group>
+<mat-card
+  fxLayout
+>
+  <app-group
+    *ngFor="let group of groups"
+    [groupInput]="group"
+    fxFlex="50%"
+    fxLayoutGap="30px"
+    >
+  </app-group>
+</mat-card>

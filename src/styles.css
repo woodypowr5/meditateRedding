@@ -11,6 +11,11 @@ body {
   color: #A64C38;
 }
 
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
 app-page-copy{
   font-size: 25px;
 }

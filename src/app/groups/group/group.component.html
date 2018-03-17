@@ -1,3 +1,14 @@
-<p>
-  {{ group.name }}
-</p>
+<mat-card>
+  <mat-card-title>
+    {{ group.name }}
+  </mat-card-title>
+  <mat-card-subtitle>
+    {{ group.description}}
+  </mat-card-subtitle>
+  <div 
+    class="image-wrapper" 
+    [ngStyle]="{'background-image': 'url(' + group.imagePath + ')'}"
+  >
+  </div>
+  
+</mat-card>
