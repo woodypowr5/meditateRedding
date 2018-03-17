@@ -28,6 +28,8 @@ import { ResourcesComponent } from './resources/resources.component';
 import { PageTitleComponent } from './shared/page-title/page-title.component';
 import { WeeklyService } from './services/weekly.service';
 import { ResourcesService } from './services/resources.service';
+import { MemberComponent } from './group/member/member.component';
+import { GroupComponent } from './groups/group/group.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +46,9 @@ import { ResourcesService } from './services/resources.service';
     PageCopyComponent,
     WeeklyCalendarComponent,
     WeeklyDayComponent,
-    EventComponent
+    EventComponent,
+    MemberComponent,
+    GroupComponent
   ],
   imports: [
     BrowserModule,
