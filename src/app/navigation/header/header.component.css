@@ -1,6 +1,13 @@
 a {
   text-decoration: none;
+  font-family: 'Lato';
+  font-size: 18px;
   color: #663E32;
+  margin-left: 10px;
+  margin-right: 10px;
+  line-height: 50px;
+  -webkit-transition: margin-left 0.3s;
+  transition: margin-right 0.3s;
 }
 
 a:hover,
@@ -8,18 +15,43 @@ a:active {
   color: lightgray;
 }
 
+li{
+  border-left: 1px solid black;
+  height: 100%;
+  -webkit-transition: line-height 0.3s; 
+  transition: line-height 0.3s;
+}
+
+.logo{
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.navlinks{
+  height: 100%;
+}
+
+
 mat-toolbar{
   height: 55px;
   /* background-color:rgba(204, 170, 89, 0.47); */
   background-color:rgba(255, 255, 255, 0.67);
-  -webkit-transition: height 0.3s; /* For Safari 3.1 to 6.0 */
-    transition: height 0.3;
+  -webkit-transition: height 0.3s;
+  transition: height 0.3s;
 }
+
 mat-toolbar:hover{
   background-color:rgba(255, 255, 255, 0.9);
   height: 110px;
-  
+  line-height: 100px;
   /* background-color:rgba(204, 170, 89, 1); */
+}
+mat-toolbar:hover a{
+  margin-right:15px;
+  margin-left: 15px;
 }
 .navigation-items {
   list-style: none;

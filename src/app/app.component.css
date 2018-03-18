@@ -8,6 +8,7 @@ mat-sidenav {
 
 main{
   padding: 60px 50px;
+  min-height: 540px;
 }
 
 .hero{

@@ -32,6 +32,7 @@ import { WeeklyService } from './services/weekly.service';
 import { ResourcesService } from './services/resources.service';
 import { GroupComponent } from './groups/group/group.component';
 import { RetreatComponent } from './retreats/retreat/retreat.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +52,8 @@ import { RetreatComponent } from './retreats/retreat/retreat.component';
     EventComponent,
     GroupComponent,
     RetreatComponent,
-    ByMonthPipe
+    ByMonthPipe,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
