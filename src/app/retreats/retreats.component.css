@@ -1,0 +1,13 @@
+.month-name{
+    font-size: 24px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+
+.retreats-container{
+    flex-wrap: wrap;
+}
+app-retreat{
+    margin-bottom: 20px;
+}

@@ -1,0 +1,24 @@
+<mat-card>
+  <div class="group-name">
+    {{ retreat.group }}
+  </div>
+  <mat-card-title>
+    {{ retreat.name }}
+  </mat-card-title>
+  <mat-card-subtitle>
+    {{ retreat.description}}
+  </mat-card-subtitle>
+  <div class="info-wrapper">
+    <div class="date info-line" *ngIf="retreat.date">   
+      <span class="key">Dates: </span> <span class="value">{{ retreat.date }}</span>
+    </div>
+    <br>
+    <div class="location info-line" *ngIf="retreat.location">   
+      <span class="key">Location: </span> <span class="value">{{ retreat.location }}</span>
+    </div>
+  </div>
+  <div class="number-days">
+    <span class="number">{{ retreat.length }}</span>
+    days
+  </div>
+</mat-card>

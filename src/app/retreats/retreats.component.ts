@@ -1,3 +1,5 @@
+import { RetreatService } from './retreat.service';
+import { Retreat } from './retreat.model';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +9,27 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RetreatsComponent implements OnInit {
 
-  constructor() { }
+  private months = [
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    'October',
+    'November',
+    'December'
+  ];
+
+  retreats: Retreat[] = [];
+
+  constructor(private retreatService: RetreatService) { }
 
   ngOnInit() {
+    this.retreats = this.retreatService.retreats;
   }
-
+  
 }

@@ -1,8 +1,8 @@
 export interface Retreat {
     id: number;
     name: string;
-    startDate: string;
-    startTime: string;
+    date: string;
+    month: string;
     length: string;
     location: string;
     group?: string;

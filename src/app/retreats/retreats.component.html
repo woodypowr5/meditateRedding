@@ -1,1 +1,17 @@
 <app-page-title [text]="'Upcoming Retreats'"></app-page-title>
+
+<!-- <mat-card> -->
+    <div *ngFor="let month of months">
+        <div class="month-name">
+            {{ month }}
+        </div>
+        <div class="retreats-container" fxLayout >
+            <app-retreat 
+                *ngFor="let retreat of retreats | byMonth:month"
+                [monthInput]="month"
+                fxFlex="50%"
+                [retreatInput]="retreat">
+            </app-retreat>
+        </div>
+    </div>
+<!-- </mat-card> -->

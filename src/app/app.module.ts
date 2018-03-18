@@ -1,3 +1,5 @@
+import { ByMonthPipe } from './pipes/byMonth.filter';
+import { RetreatService } from './retreats/retreat.service';
 import { ColorService } from './services/color.service';
 import { EventComponent } from './shared/event/event.component';
 import { GroupsService } from './services/groups.service';
@@ -29,6 +31,7 @@ import { PageTitleComponent } from './shared/page-title/page-title.component';
 import { WeeklyService } from './services/weekly.service';
 import { ResourcesService } from './services/resources.service';
 import { GroupComponent } from './groups/group/group.component';
+import { RetreatComponent } from './retreats/retreat/retreat.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +49,9 @@ import { GroupComponent } from './groups/group/group.component';
     WeeklyCalendarComponent,
     WeeklyDayComponent,
     EventComponent,
-    GroupComponent
+    GroupComponent,
+    RetreatComponent,
+    ByMonthPipe
   ],
   imports: [
     BrowserModule,
@@ -61,7 +66,8 @@ import { GroupComponent } from './groups/group/group.component';
     CalendarService,
     GroupsService,
     ResourcesService,
-    ColorService
+    ColorService,
+    RetreatService
   ],
   bootstrap: [AppComponent]
 })
