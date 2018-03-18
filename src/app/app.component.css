@@ -7,13 +7,31 @@ mat-sidenav {
 }
 
 main{
-  padding: 30px 50px;
+  padding: 20px 50px;
 }
 
 .hero{
   width: 100%;
-  height: 300px;
-  background-image: url('http://lorempixel.com/1800/300');
-  background-size: contain;
+  height: 450px;
+  
+  background-size: cover;
   background-repeat: no-repeat;
+}
+.hero{
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/meditateredding.appspot.com/o/tree.png?alt=media&token=ce8423af-ed38-4840-bc3f-e5b1025e0072');
+}
+.hero.weekly{
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/meditateredding.appspot.com/o/trees.png?alt=media&token=d31d132f-0a21-42b6-abc0-2f1520fea43e');
+}
+.hero.retreats{
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/meditateredding.appspot.com/o/lily.png?alt=media&token=fea57cad-624e-47b2-8503-d8a4f4b1d6a3');
+}
+.hero.groups{
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/meditateredding.appspot.com/o/blue.png?alt=media&token=4ba37200-bce3-43b1-a0f2-6c19185068aa');
+}
+.hero.calendar{
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/meditateredding.appspot.com/o/blue.png?alt=media&token=4ba37200-bce3-43b1-a0f2-6c19185068aa');
+}
+.hero.resources{
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/meditateredding.appspot.com/o/lily.png?alt=media&token=fea57cad-624e-47b2-8503-d8a4f4b1d6a3');
 }

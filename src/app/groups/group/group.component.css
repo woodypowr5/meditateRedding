@@ -8,7 +8,7 @@ mat-card{
     position: relative;
 }
 mat-card-subtitle{
-    width: 700px;
+    max-width: 700px;
     font-size: 18px;
 }
 .info-wrapper{
@@ -17,7 +17,7 @@ mat-card-subtitle{
     left: 300px;
     top: 50px;
     height: 200px;
-    width: 100%;
+    width: 400px;
 }
 .info-line{
     position: relative;
@@ -35,4 +35,8 @@ mat-card-subtitle{
 }
 .address2{
     margin-left: 100px;
+    
+}
+.address2{
+    margin-bottom: 10px;
 }

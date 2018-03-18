@@ -3,9 +3,19 @@
     <app-sidenav-list (closeSidenav)="sidenav.close()"></app-sidenav-list>
   </mat-sidenav>
   <mat-sidenav-content>
-    
-    <div class="hero">
-        <app-header (sidenavToggle)="sidenav.toggle()"></app-header>
+    <div class="hero"
+    [ngClass] = "{ 
+      'home': currentRoute !== '/', 
+      'retreats': currentRoute === '/retreats',
+      'weekly': currentRoute === '/weekly',
+      'groups': currentRoute === '/groups', 
+      'resources': currentRoute === '/resources',  
+      'calendar': currentRoute === '/calendar'  
+    }">
+      <app-header 
+        (sidenavToggle)="sidenav.toggle()"
+      >
+      </app-header>
     </div>
     <main>
       <router-outlet></router-outlet>

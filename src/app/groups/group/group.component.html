@@ -21,7 +21,10 @@
     </span>
     <span class="email info-line" *ngIf="group.email">   
       <span class="key">Email: </span> <span class="value">{{ group.email }}</span>
-      </span>
+    </span>
+    <span class="email info-line" *ngIf="group.url">   
+      <span class="value"> <a href="{{ group.url }}">Visit Website</a></span>
+    </span>
   </div>
   
 </mat-card>
