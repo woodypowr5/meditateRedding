@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RetreatsComponent implements OnInit {
 
-  private months = [
+  months = [
     'January',
     'February',
     'March',

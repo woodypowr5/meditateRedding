@@ -10,4 +10,5 @@ export interface Retreat {
     description?: string;
     contactName?: string;
     contactPhone?: string;
+    url: string;
 }

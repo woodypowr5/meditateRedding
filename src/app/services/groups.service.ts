@@ -27,7 +27,7 @@ export class GroupsService {
       address: '1190 South Street',
       address2: 'Redding, California 96001',
       phone: '',
-      email: 'reddingzen@gmail.com'
+      email: 'reddingzen@gmail.com',
       description: 'Rev. Helen Cummings from Shasta Abbey Buddhist Monestary is in residence as Prior of the Redding Zen Buddhist Priory. The Priory offers many meditation and ceremony events throughout the week, and all activities are open to the public.',
       contactName: '',
       contactNumber: '',

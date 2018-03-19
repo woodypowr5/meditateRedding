@@ -9,17 +9,21 @@ mat-sidenav {
 main{
   padding: 60px 50px;
   min-height: 540px;
+  flex: 1;
+  position: relative;
 }
 
 .hero{
   width: 100%;
   height: 450px;
-  
   background-size: cover;
   background-repeat: no-repeat;
+  -webkit-transition: background-image 0.7s;
+  transition: background-image 0.7s;
 }
 .hero{
   background-image: url('https://firebasestorage.googleapis.com/v0/b/meditateredding.appspot.com/o/tree.png?alt=media&token=ce8423af-ed38-4840-bc3f-e5b1025e0072');
+  
 }
 .hero.weekly{
   background-image: url('https://firebasestorage.googleapis.com/v0/b/meditateredding.appspot.com/o/trees.png?alt=media&token=d31d132f-0a21-42b6-abc0-2f1520fea43e');
@@ -35,4 +39,10 @@ main{
 }
 .hero.resources{
   background-image: url('https://firebasestorage.googleapis.com/v0/b/meditateredding.appspot.com/o/Wave.png?alt=media&token=f7b19ac5-fae5-49d2-b661-9ff94f752923');
+}
+
+router-outlet ~ * {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }

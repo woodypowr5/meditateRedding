@@ -40,14 +40,16 @@ mat-toolbar{
   height: 55px;
   /* background-color:rgba(204, 170, 89, 0.47); */
   background-color:rgba(255, 255, 255, 0.67);
-  -webkit-transition: height 0.3s;
-  transition: height 0.3s;
+  -webkit-transition: height 0.3s,background-color 0.3s;
+  transition: height 0.3s,background-color 0.3s;
 }
 
 mat-toolbar:hover{
-  background-color:rgba(255, 255, 255, 0.9);
+  background-color:rgba(255, 255, 255, 0.95);
   height: 110px;
   line-height: 100px;
+  /* -webkit-transition: background-color 0.3s;
+  transition: ; */
   /* background-color:rgba(204, 170, 89, 1); */
 }
 mat-toolbar:hover a{

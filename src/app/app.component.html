@@ -17,8 +17,8 @@
       >
       </app-header>
     </div>
-    <main>
-      <router-outlet></router-outlet>
+    <main [@fadeAnimation]="getRouterOutletState(outlet)">
+      <router-outlet #outlet="outlet"></router-outlet>
     </main>
     <app-footer></app-footer>
   </mat-sidenav-content>

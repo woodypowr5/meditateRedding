@@ -1,4 +1,19 @@
 footer{
     height: 80px;
-    background-color:rgba(72, 71, 69, 0.47); 
+    background-color:rgba(72, 71, 69, 0.20); 
+    position: relative;
+}
+
+.footer-attribution{
+    position: absolute;
+    font-size: 12px;
+    right: 10px;
+    top: 20px;
+}
+
+.footer-coffee{
+    position: absolute;
+    font-size: 12px;
+    right: 10px;
+    top: 60px;
 }

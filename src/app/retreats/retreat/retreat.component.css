@@ -2,6 +2,14 @@ mat-card{
     /* max-width: 800px; */
     margin-left: 20px;
     position: relative;
+    -webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+
+}
+mat-card:hover{
+    outline: 2px solid rgba(102, 62, 50, 0.4);;
+    background-color: rgba(102, 62, 50, 0.05);
+
 }
 .group-name{
     margin-bottom: 15px;
@@ -14,4 +22,7 @@ mat-card{
 }
 .number{
     font-size: 28px;
+}
+a{
+    text-decoration: none;
 }

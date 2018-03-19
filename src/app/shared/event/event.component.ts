@@ -8,8 +8,8 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./event.component.css']
 })
 export class EventComponent implements OnInit {
-  private event: Event;
-  private colors: any;
+  event: Event;
+  colors: any;
   @Input() eventData;
 
   constructor(private colorService: ColorService) { }

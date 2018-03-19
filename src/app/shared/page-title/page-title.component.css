@@ -1,10 +1,10 @@
 
 
 h1{
-    margin-bottom: 80px;
     margin-top: 0px;
-    margin-bottom: 17px;
+    margin-bottom: 70px;
     color: #663E32;
     font-family: 'Lato';
-    border-bottom: 4px solid #663E32;
+    border-bottom: 1px solid #663E32;
+    line-height: 42px;
 }
