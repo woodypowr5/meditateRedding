@@ -12,3 +12,9 @@ app-weekly-day{
 app-weekly-day:last-child{
     border-right: 2px solid #DDD;
 }
+@media (max-width: 1000px) {
+    app-weekly-day{
+        border: none;
+       
+    }
+} 

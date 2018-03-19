@@ -4,12 +4,36 @@
 section{
   width: 30%;
 }
+  @media (max-width: 12450px) {
+    section{
+      width: 32%;
+    }
+  } 
+  @media (max-width: 960px) {
+    section{
+      margin: 0 auto;
+      width: 65%;
+    }
+  }  
+  @media (max-width: 750px) {
+    section{
+      margin: 0 auto;
+      width: 85%;
+      margin-bottom: 60px;
+    }
+  }  
 section p{
   font-size: 18px;
   color: #666;
   line-height: 2.0;
   margin: 40px 20px;
 }
+  @media (max-width: 12450px) {
+    section p{
+      font-size: 16px;
+      line-height: 1.7;
+    }
+  }
 
 .description-section {
   width: 65%;
@@ -20,3 +44,9 @@ section p{
   font-size: 14px;
   font-weight: bold;
 }
+  @media (max-width: 12450px) {
+    .description-section{
+      width: 85%;
+    }
+  }
+

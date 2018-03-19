@@ -2,3 +2,16 @@ app-page-copy p{
     margin-top: 40px;
     margin-bottom: 60px;
 }
+
+@media (max-width: 1000px) {
+    mat-card{
+        width: 100%;
+        padding: 0px;
+    }
+} 
+@media (max-width: 1000px) {
+    app-weekly-calendar{
+        display: block !important;
+        padding-top: 30px;
+    }
+} 
