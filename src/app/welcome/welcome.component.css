@@ -5,9 +5,18 @@ section{
   width: 30%;
 }
 section p{
-
   font-size: 18px;
   color: #666;
   line-height: 2.0;
   margin: 40px 20px;
+}
+
+.description-section {
+  width: 65%;
+  margin: 0 auto;
+  color: #777 !important;
+  font-family: 'Lato';
+  line-height: 1.7;
+  font-size: 14px;
+  font-weight: bold;
 }

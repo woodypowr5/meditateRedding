@@ -2,6 +2,8 @@
     width: 200px;
     height: 200px;
     margin: 10px 0px 30px 3px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 mat-card{
     padding: 40px;
