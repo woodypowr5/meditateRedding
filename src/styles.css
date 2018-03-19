@@ -24,6 +24,26 @@ app-page-title h1{
   margin-bottom: 30px;
 }
 
+.page-content-wrapper{
+  color:#663E32;
+  border-bottom: 1px solid rgba(102, 62, 50, .22);
+  margin-bottom: 105px;
+  
+}
+.page-content-wrapper .quote{
+  font-style: italic;
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 60px;
+  max-width: 800px;
+}
+.page-content-wrapper .description{
+  font-size: 20px;
+  margin-bottom: 45px;
+  max-width: 800px;
+  
+}
+
 .group-color-0{
   color: black;   
   font-weight: bold;
@@ -45,3 +65,5 @@ app-page-title h1{
 .group-background-color-2{    
   background-color: rgba(154,154,154,0.3);
 }
+
+
