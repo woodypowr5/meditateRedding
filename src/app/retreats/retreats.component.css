@@ -11,3 +11,8 @@
 app-retreat{
     margin-bottom: 20px;
 }
+@media (max-width: 1000px) {
+    app-retreat{
+        max-width: 100% !important;
+    }
+} 

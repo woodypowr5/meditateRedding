@@ -1,5 +1,5 @@
 <mat-toolbar>
-  <div fxHide.gt-xs>
+  <div class="menu-button" fxHide.gt-sm>
     <button mat-icon-button (click)="onToggleSidenav()">
       <mat-icon>menu</mat-icon>
     </button>
@@ -7,7 +7,7 @@
   <div>
     <a class="logo" routerLink="/"><img src="https://firebasestorage.googleapis.com/v0/b/meditateredding.appspot.com/o/lotus.png?alt=media&token=a6cf4772-c18b-4aff-92d3-0142ab7ac1c1 alt=" class="logo-icon"><span class="logo-text">meditate<span class="logo-text-light">Redding</span></span></a>
   </div>
-  <div class="navlinks" fxFlex fxLayout fxLayoutAlign="flex-end" fxHide.xs>
+  <div class="navlinks" fxFlex fxLayout fxLayoutAlign="flex-end" fxHide.lt-md>
     <ul fxLayout class="navigation-items">
       <li>
         <a routerLink="/weekly">Weekly Events</a>

@@ -6,6 +6,11 @@ mat-card{
     transition: background-color 0.2s;
 
 }
+@media (max-width: 1000px) {
+    mat-card{
+        margin-left: 0px;
+    }
+} 
 mat-card:hover{
     outline: 2px solid rgba(102, 62, 50, 0.4);;
     background-color: rgba(102, 62, 50, 0.05);

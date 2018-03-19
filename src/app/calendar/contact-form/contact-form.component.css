@@ -170,3 +170,15 @@ input.placeholder-text, textarea.placeholder-text  {
     color:#CCC;
     font-style:italic;
 }
+
+@media (max-width: 650px) {
+    #contact-form{
+        width: 100%;
+        margin-left: -25px;
+    }
+    #contact-form input,
+    #contact-form select,
+    #contact-form textarea{
+        width: 98%;
+    }
+} 
