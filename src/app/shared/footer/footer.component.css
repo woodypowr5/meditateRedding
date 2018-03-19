@@ -6,14 +6,21 @@ footer{
 
 .footer-attribution{
     position: absolute;
-    font-size: 12px;
-    right: 10px;
-    top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    right: 25px;
+    top: 17px;
+    color: #666;
 }
 
 .footer-coffee{
     position: absolute;
-    font-size: 12px;
-    right: 10px;
-    top: 60px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    right: 25px;
+    top: 47px;
+    color: #666;
+    text-decoration: underline;
 }
