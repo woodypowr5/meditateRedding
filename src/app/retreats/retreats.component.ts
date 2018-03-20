@@ -10,8 +10,8 @@ import { Component, OnInit } from '@angular/core';
 export class RetreatsComponent implements OnInit {
 
   months = [
-    'January',
-    'February',
+    // 'January',
+    // 'February',
     'March',
     'April',
     'May',

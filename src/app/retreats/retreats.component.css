@@ -4,15 +4,20 @@
     margin-bottom: 40px;
     text-decoration: underline;
 }
-
+    @media (max-width: 1000px) {
+        .month-name{
+            text-align: center;
+            font-size: 28px;
+        }
+    } 
 .retreats-container{
     flex-wrap: wrap;
 }
 app-retreat{
     margin-bottom: 20px;
 }
-@media (max-width: 1000px) {
-    app-retreat{
-        max-width: 100% !important;
-    }
-} 
+    @media (max-width: 1000px) {
+        app-retreat{
+            max-width: 100% !important;
+        }
+    } 
