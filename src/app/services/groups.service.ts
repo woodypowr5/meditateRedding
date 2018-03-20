@@ -37,9 +37,9 @@ export class GroupsService {
     this.groups.push({
       name: 'River Oak Sangha',
       description: 'The River Oak Sangha welcomes everyone with an interest in mindfulness practice, including first-time visitors and guests. We aspire to apply mindfulness to everyday life while balancing practice and study.  Such a path can decrease suffering, increase happiness, and ultimately lead to the natural development of compassion and wisdom. ',
-      address: '3724 Summit Drive',
+      address: '',
       phone: '',
-      address2: 'Mount Shasta, CA 96067-9102',
+      address2: '',
       contactName: '',
       contactNumber: '',
       imagePath: 'https://firebasestorage.googleapis.com/v0/b/meditateredding.appspot.com/o/RiverOakSangha.png?alt=media&token=f29cfd71-d331-40f6-a95d-42d15b05a456',

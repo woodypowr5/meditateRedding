@@ -9,10 +9,20 @@ mat-card{
     padding: 40px;
     position: relative;
 }
+    @media (max-width: 900px) {
+        mat-card{
+            padding: 20px;
+        }    
+    }    
 mat-card-subtitle{
     max-width: 700px;
     font-size: 18px;
 }
+    @media (max-width: 900px) {
+        mat-card-subtitle{
+            font-size: 14px;
+        }    
+    }  
 .info-wrapper{
     padding-top: 20px;
     position: absolute;
@@ -21,16 +31,32 @@ mat-card-subtitle{
     height: 200px;
     width: 400px;
 }
+    @media (max-width: 900px) {
+        .info-wrapper{
+            /* width: 300px; */
+            position: relative;
+            left: 0;
+            top: 0;
+            height: 120px;
+            width: unset;
+        }    
+    }  
 .info-line{
     position: relative;
     display: block;
     margin-bottom: 20px;
     width: 100%;
+
 }
 .key{
     font-size: 20px;
     font-weight: bold;
 }
+    @media (max-width: 900px) {
+        .key{
+            font-size: 16px;
+        }    
+    }  
 .value{
     position: absolute;
     left: 100px;

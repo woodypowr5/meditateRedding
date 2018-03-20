@@ -3,7 +3,6 @@ import { RetreatService } from './retreats/retreat.service';
 import { ColorService } from './services/color.service';
 import { EventComponent } from './shared/event/event.component';
 import { GroupsService } from './services/groups.service';
-import { CalendarService } from './services/calendar.service';
 import { WeeklyDayComponent } from './weekly/weekly-calendar/weekly-day/weekly-day.component';
 import { WeeklyCalendarComponent } from './weekly/weekly-calendar/weekly-calendar.component';
 import { PageCopyComponent } from './shared/page-copy/page-copy.component';
@@ -11,7 +10,6 @@ import { PageCopyComponent } from './shared/page-copy/page-copy.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { AppComponent } from './app.component';
@@ -23,7 +21,7 @@ import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.com
 import { environment } from '../environments/environment';
 import { UIService } from './shared/ui.service';
 import { WeeklyComponent } from './weekly/weekly.component';
-import { CalendarComponent } from './calendar/calendar.component';
+import { ContactComponent } from './contact/contact.component';
 import { RetreatsComponent } from './retreats/retreats.component';
 import { GroupsComponent } from './groups/groups.component';
 import { ResourcesComponent } from './resources/resources.component';
@@ -33,8 +31,8 @@ import { ResourcesService } from './services/resources.service';
 import { GroupComponent } from './groups/group/group.component';
 import { RetreatComponent } from './retreats/retreat/retreat.component';
 import { FooterComponent } from './shared/footer/footer.component';
-import { ContactFormComponent } from './calendar/contact-form/contact-form.component';
-
+import { ContactFormComponent } from './contact/contact-form/contact-form.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -43,7 +41,7 @@ import { ContactFormComponent } from './calendar/contact-form/contact-form.compo
     HeaderComponent,
     SidenavListComponent,
     WeeklyComponent,
-    CalendarComponent,
+    ContactComponent,
     RetreatsComponent,
     GroupsComponent,
     ResourcesComponent,
@@ -60,15 +58,14 @@ import { ContactFormComponent } from './calendar/contact-form/contact-form.compo
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule,
     MaterialModule,
     AppRoutingModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    BrowserAnimationsModule
   ],
   providers: [
     UIService,
     WeeklyService,
-    CalendarService,
     GroupsService,
     ResourcesService,
     ColorService,

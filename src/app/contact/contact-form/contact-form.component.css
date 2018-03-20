@@ -100,7 +100,6 @@
     -webkit-border-radius:8px;
     -moz-border-radius:8px;
     border-radius:8px;
-    /* background:#FFE6E6 url(../img/cancel_48.png) no-repeat 405px center; */
     display:none;
 }
  
@@ -130,7 +129,6 @@
     -webkit-border-radius:8px;
     -moz-border-radius:8px;
     border-radius:8px;
-    /* background:#D3EDD3 url(../img/accepted_48.png) no-repeat 405px center; */
     font-weight:bold;
     display:none;
 }
@@ -175,6 +173,8 @@ input.placeholder-text, textarea.placeholder-text  {
     #contact-form{
         width: 100%;
         margin-left: -25px;
+        border: none;
+        margin-bottom: 0px;
     }
     #contact-form input,
     #contact-form select,

@@ -5,3 +5,8 @@ app-group{
     width: 100%;
     padding: 30px;
 }
+    @media (max-width: 900px) {
+        app-group{
+            padding: 10px;
+        }    
+    }  

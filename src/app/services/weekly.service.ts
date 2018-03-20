@@ -31,7 +31,7 @@ export class WeeklyService {
       name: 'Evening Meditation Practice',
       dayRepeating: 'Tuesday',
       date: '',
-      time: '500PM-5:30PM',
+      time: '5:00PM-5:30PM',
       location: 'Blah',
       tradition: 'Mindfullness',
       description: '',
@@ -58,7 +58,7 @@ export class WeeklyService {
         name: 'Weekly Gathering',
         dayRepeating: 'Wednesday',
         date: '',
-        time: '630PM - 8PM',
+        time: '6:30PM - 8:00PM',
         location: 'Blah',
         tradition: 'Mindfullness',
         description: 'The weekly meeting of the River Oak Sangha',
@@ -70,7 +70,7 @@ export class WeeklyService {
       name: 'Evening Meditation Practice',
       dayRepeating: 'Wednesday',
       date: '',
-      time: '500PM-5:30PM',
+      time: '5:00PM-5:30PM',
       location: 'Blah',
       tradition: 'Mindfullness',
       description: '',
@@ -84,7 +84,7 @@ export class WeeklyService {
       name: 'Morning Meditation Practice',
       dayRepeating: 'Thursday',
       date: '',
-      time: '600AM-7:00AM',
+      time: '6:00AM-7:00AM',
       location: 'Blah',
       tradition: 'Mindfullness',
       description: '',
@@ -96,7 +96,7 @@ export class WeeklyService {
       name: 'Evening Meditation Practice',
       dayRepeating: 'Thursday',
       date: '',
-      time: '500PM-5:30PM',
+      time: '5:00PM-5:30PM',
       location: 'Blah',
       tradition: 'Mindfullness',
       description: '',
@@ -122,7 +122,7 @@ export class WeeklyService {
       name: 'Morning Meditation Practice',
       dayRepeating: 'Friday',
       date: '',
-      time: '600AM-7:00AM',
+      time: '6:00AM-7:00AM',
       location: 'Blah',
       tradition: 'Mindfullness',
       description: '',
@@ -134,7 +134,7 @@ export class WeeklyService {
       name: 'Evening Meditation Practice',
       dayRepeating: 'Friday',
       date: '',
-      time: '500PM-5:30PM',
+      time: '5:00PM-5:30PM',
       location: 'Blah',
       tradition: 'Mindfullness',
       description: '',
@@ -142,7 +142,18 @@ export class WeeklyService {
       group: 'Redding Zen Priory'
     });
     // Saturday
-
+    this.events.push({
+      id: 0,
+      name: 'Morning Meditation and Service',
+      dayRepeating: 'Saturday',
+      date: '',
+      time: '8:00AM-10:00AM',
+      location: 'Blah',
+      tradition: 'Mindfullness',
+      description: '',
+      descriptionBody: 'Test',
+      group: 'Redding Zen Priory'
+    });
     // Sunday
     this.events.push({
       id: 0,
@@ -155,6 +166,18 @@ export class WeeklyService {
       description: '',
       descriptionBody: 'Test',
       group: 'Center for Spiritual Living'
+    });
+    this.events.push({
+      id: 0,
+      name: 'Meditation and Dharma Talk',
+      dayRepeating: 'Sunday',
+      date: '',
+      time: '10:30AM-12:00PM',
+      location: 'Blah',
+      tradition: 'Mindfullness',
+      description: '',
+      descriptionBody: 'Test',
+      group: 'Redding Zen Priory'
     });
   }
   getEvents(){
