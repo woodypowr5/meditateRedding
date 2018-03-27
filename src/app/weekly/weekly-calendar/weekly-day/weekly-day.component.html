@@ -4,8 +4,8 @@
 
 <app-event 
   *ngFor="let event of dailyEvents"
-  [eventData]="event"
   (click)="openDialog(event)"
+  [eventData]="event"
 >
   {{ event.name }}
 </app-event>

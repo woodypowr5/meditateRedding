@@ -2,3 +2,7 @@ agm-map{
     width: 400px;
     height: 400px;
 }
+agm-map img{
+    max-width: unset;
+    max-height: unset;
+}

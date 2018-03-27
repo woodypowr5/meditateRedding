@@ -16,6 +16,8 @@ export class GroupsService {
       description: 'The Center for Spiritual Living is a global community comprised of more than 400 theological chapters, teaching centers, study groups, and other ministries across 30 countries. The Center provides a space for groups of various denominations to gather and participate in their respective practice.',
       address: '1905 Hartnell Ave.',
       address2: 'Redding, CA 96002',
+      lat: 40.56242410000001,
+      lng: -122.3353593,
       phone: '(530) 221-4849',
       contactName: '',
       contactNumber: '',
@@ -26,6 +28,8 @@ export class GroupsService {
       name: 'Redding Zen Priory',
       address: '1190 South Street',
       address2: 'Redding, California 96001',
+      lat: 40.5826214,
+      lng: -122.3862795,
       phone: '',
       email: 'reddingzen@gmail.com',
       description: 'Rev. Helen Cummings from Shasta Abbey Buddhist Monestary is in residence as Prior of the Redding Zen Buddhist Priory. The Priory offers many meditation and ceremony events throughout the week, and all activities are open to the public.',
@@ -37,9 +41,11 @@ export class GroupsService {
     this.groups.push({
       name: 'River Oak Sangha',
       description: 'The River Oak Sangha welcomes everyone with an interest in mindfulness practice, including first-time visitors and guests. We aspire to apply mindfulness to everyday life while balancing practice and study.  Such a path can decrease suffering, increase happiness, and ultimately lead to the natural development of compassion and wisdom. ',
-      address: '',
+      address: '1905 Hartnell Ave.',
+      address2: 'Redding, CA 96002',
+      lat: 40.56242410000001,
+      lng: -122.3353593,
       phone: '',
-      address2: '',
       contactName: '',
       contactNumber: '',
       imagePath: 'https://firebasestorage.googleapis.com/v0/b/meditateredding.appspot.com/o/RiverOakSangha.png?alt=media&token=f29cfd71-d331-40f6-a95d-42d15b05a456',
@@ -50,6 +56,8 @@ export class GroupsService {
       description: 'The Shasta Abbey is a Buddhist monastery in the Serene Reflection Meditation (Soto Zen) Tradition, and  offers retreats, ceremonies, teaching and spiritual counseling, as well as the opportunity to train within a monastic schedule.',
       address: '3724 Summit Drive',
       address2: 'Mount Shasta, CA 96067-9102',
+      lat: 41.350971,
+      lng: -122.35398499999997,
       phone: '',
       contactName: '',
       contactNumber: '',
@@ -58,5 +66,8 @@ export class GroupsService {
     });
   }
 
+  getGroupData(groupName) {
+    return this.groups.filter( group => group.name === groupName );
+  }
 
 }

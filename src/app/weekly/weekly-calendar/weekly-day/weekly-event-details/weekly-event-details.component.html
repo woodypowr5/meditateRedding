@@ -1,3 +1,20 @@
-<agm-map [latitude]="lat" [longitude]="lng">
-  <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
-</agm-map>
+<mat-card>
+  <h1>Event Details</h1>
+  <mat-card-title>
+    {{ data.name }}
+  </mat-card-title>
+  <mat-card-subtitle>
+    {{ data.time }}
+  </mat-card-subtitle>
+  <div class="group-address">
+    <h2>{{ data.groupData[0].name }}</h2>
+    <h3>Location:</h3>
+    {{ data.groupData[0].address }}
+    <br>
+    {{ data.groupData[0].address2 }}
+  </div>
+  <agm-map [latitude]="lat" [longitude]="lng">
+    <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+  </agm-map>
+
+</mat-card>

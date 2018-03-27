@@ -1,4 +1,5 @@
-import { Component, OnInit, Inject } from '@angular/core';
+import { Event } from './../../../../shared/event.model';
+import { Component, OnInit, Inject, Input } from '@angular/core';
 import { MatDialog, MAT_DIALOG_DATA } from '@angular/material';
 import { AgmCoreModule } from '@agm/core';
 
@@ -8,12 +9,13 @@ import { AgmCoreModule } from '@agm/core';
   styleUrls: ['./weekly-event-details.component.css']
 })
 export class WeeklyEventDetailsComponent implements OnInit {
-  lat = 51.678418;
-  lng = 7.809007;
+  lat: number;
+  lng: number;
   constructor(@Inject(MAT_DIALOG_DATA) public data: any) { }
 
   ngOnInit() {
-    console.log(this.data);
+    this.lat = this.data.groupData[0].lat;
+    this.lng = this.data.groupData[0].lng;
   }
 
 

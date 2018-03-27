@@ -3,6 +3,8 @@ export interface Group {
     description: string;
     address: string;
     address2?: string;
+    lat: number;
+    lng: number;
     phone: string;
     contactName?: string;
     contactNumber?: string;
