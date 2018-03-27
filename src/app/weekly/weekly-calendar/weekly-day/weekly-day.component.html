@@ -5,6 +5,7 @@
 <app-event 
   *ngFor="let event of dailyEvents"
   [eventData]="event"
-  >
+  (click)="openDialog(event)"
+>
   {{ event.name }}
 </app-event>

@@ -1,9 +1,7 @@
 <app-weekly-day 
   [dayOfWeek]="day"
   [events]="getDailyEvents(day)"
-  (click)="openDialog()"
   *ngFor="let day of days"
-  
 >
 {{day}}
 </app-weekly-day>

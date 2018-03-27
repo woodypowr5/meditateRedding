@@ -186,7 +186,6 @@ export class WeeklyService {
   }
 
   getDays() {
-    console.log(this.days)
     return this.days;
   }
 }

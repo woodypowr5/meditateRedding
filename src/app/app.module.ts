@@ -35,6 +35,8 @@ import { ContactFormComponent } from './contact/contact-form/contact-form.compon
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { WeeklyEventDetailsComponent } from './weekly/weekly-calendar/weekly-day/weekly-event-details/weekly-event-details.component';
 
+import { AgmCoreModule } from '@agm/core';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -63,7 +65,10 @@ import { WeeklyEventDetailsComponent } from './weekly/weekly-calendar/weekly-day
     MaterialModule,
     AppRoutingModule,
     FlexLayoutModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyAElZ7hDq9BD8ku8exbezkJR7PNGalNQHo'
+    })
   ],
   providers: [
     UIService,
