@@ -3,7 +3,8 @@ import { Injectable } from '@angular/core';
 
 @Injectable()
 export class WeeklyService {
-  events: Event[] = [];
+  private events: Event[] = [];
+  private days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 
   constructor() {
     this.populateEvents();
@@ -180,7 +181,12 @@ export class WeeklyService {
       group: 'Redding Zen Priory'
     });
   }
-  getEvents(){
+  getEvents() {
     return this.events;
+  }
+
+  getDays() {
+    console.log(this.days)
+    return this.days;
   }
 }

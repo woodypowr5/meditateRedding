@@ -33,6 +33,7 @@ import { RetreatComponent } from './retreats/retreat/retreat.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { ContactFormComponent } from './contact/contact-form/contact-form.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { WeeklyEventDetailsComponent } from './weekly/weekly-calendar/weekly-day/weekly-event-details/weekly-event-details.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     RetreatComponent,
     ByMonthPipe,
     FooterComponent,
-    ContactFormComponent
+    ContactFormComponent,
+    WeeklyEventDetailsComponent
   ],
   imports: [
     BrowserModule,
@@ -71,6 +73,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ColorService,
     RetreatService
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [WeeklyEventDetailsComponent]
 })
 export class AppModule { }

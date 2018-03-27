@@ -1,45 +1,9 @@
 <app-weekly-day 
-  [dayOfWeek]="'Monday'"
-  [events]="getDailyEvents('Monday')"
+  [dayOfWeek]="day"
+  [events]="getDailyEvents(day)"
+  (click)="openDialog()"
+  *ngFor="let day of days"
+  
 >
-</app-weekly-day>
-
-<app-weekly-day 
-  [dayOfWeek]="'Tuesday'"
-  [events]="getDailyEvents('Tuesday')"
->
-</app-weekly-day>
-
-<app-weekly-day 
-  [dayOfWeek]="'Wednesday'"
-  [events]="getDailyEvents('Wednesday')"
->
-
-</app-weekly-day>
-
-<app-weekly-day 
-  [dayOfWeek]="'Thursday'"
-  [events]="getDailyEvents('Thursday')"
->
-
-</app-weekly-day>
-
-<app-weekly-day 
-  [dayOfWeek]="'Friday'"
-  [events]="getDailyEvents('Friday')"
->
-
-</app-weekly-day>
-
-<app-weekly-day 
-  [dayOfWeek]="'Saturday'"
-  [events]="getDailyEvents('Saturday')"
->
-
-</app-weekly-day>
-
-<app-weekly-day 
-  [dayOfWeek]="'Sunday'"
-  [events]="getDailyEvents('Sunday')"
->
+{{day}}
 </app-weekly-day>
