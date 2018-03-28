@@ -1,8 +1,28 @@
 agm-map{
     width: 400px;
     height: 400px;
+    margin: 0 auto;
 }
-agm-map img{
-    max-width: unset;
-    max-height: unset;
+h1{
+    color:#663E32;
+    text-decoration: underline;
+    margin-bottom: 40px;
 }
+.mat-card-subtitle {
+    font-size: 20px;
+}
+h3{
+    margin-bottom: 10px;
+}
+h2{
+    font-weight: normal;
+}
+.group-address{
+    margin-bottom: 30px;
+}
+@media (max-width: 600px) {
+    agm-map{
+        width: 100%;
+    }
+  }
+  

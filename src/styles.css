@@ -76,4 +76,10 @@ app-page-title h1{
   background-color: rgba(154,154,154,0.3);
 }
 
+@media (max-width: 600px) {
+  #cdk-overlay-0{
+    max-width: none !important;
+    width: 100%;
+  }
+}
 
